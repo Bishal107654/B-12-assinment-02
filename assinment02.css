@@ -142,28 +142,96 @@
     text-align: center;
 }
 
-.picture-duel{
-    display: flex;
-  flex-direction: column;
-  width: 300px; 
-  gap: 15px;
-  margin-left: 50px; 
-}
-.ana-bloom{
-    border-radius: 15px;
-    width: 100%;
+.img-bloom{
+ background-image:url(deal-bloom.png); 
+ width: 200px; 
+ height: 120px; 
+ border-radius: 10px;
+    
 }
 
-.picture-flex{
+.img-ana{
+    background-image:url(deal-ana.png); 
+ width: 200px; 
+ height: 120px; 
+ border-radius: 10px;
+}
+
+.img-zabo{
+      background-image:url(deal-zabo.png); 
+ width: 500px; 
+ height: 270px; 
+ border-radius: 10px;
+ margin-top: 18px; 
+}
+
+.image-flex{ 
     display: flex;
-    gap: 15px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.Bloom{
+    color: white;
+    text-align: center;
+    margin: 90px 0;
+    font-size: 2.5rem;
+}
+.Bloom-1{
+    color: white;
+    text-align: center;
+    padding: 35px 0;
+}
+
+.Bloom-2{
+    color: white;
+    text-align: center;
+    padding: 35px 0;
+}
+
+.shop{
+    font-size: 1.5rem;
+    font-weight: 100;
+    
+}
+
+.bg-img{
+    background-image:url(news-letter-bg.png);
+  width: 100%;
+  height: auto;
+    background-size: cover;
+    background-position: center;
+}
+ 
+.email{
+    width: 300px;
+    height: 20px;
+    border: 1px solid wheat;
    
-   justify-content: center;
 }
-.ana-zabo{
-    border-radius: 15px;
-    width: 80%;
+.btn-2{
+   color: white;
+   background-color: #E95A08; 
+   border: #E95A08;
+   width: 100px;
+   height: 25px;
+   margin-left:-4px;
+
+   
 }
+ .bunch{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 500;
+ }
+.text-email{
+    text-align: center;
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+
+
+
 
 
 
@@ -190,9 +258,31 @@
 
    .navbar-2{
     flex-direction: column-reverse;
-    
    } 
+.image-flex{
+    flex-direction: column;
+     justify-content: center;
+     margin-left: 60px;
+    
+}
 
+.img-zabo{
+    width:200px;
+    height: 200px;
+    margin-top: -4px;
+}
+.img-ana{
+    width: 200px;
+    height: 200px;
+}
+.img-bloom{
+    width: 200px;
+    height: 200px;
+}
+.Bloom{
+    font-size: 1rem;
+}
+   
    .flex-card{
     grid-template-columns: repeat(2, 1fr);
    }
@@ -200,11 +290,9 @@
    .logo-spin-2{
     display: none;
    }
-     .picture-flex{ 
-    flex-direction: column;
-    }
-    .picture-zabo{
-        justify-content: center;
-    }
-   
+  
+  .bg-img{
+    margin: 0 10px;
+  }
+  
 }
