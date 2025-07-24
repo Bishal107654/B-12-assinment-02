@@ -135,6 +135,48 @@
 }
 
 
+.cols-rows{
+    margin: 50px 50px;        
+}
+.picture-title{
+    text-align: center;
+}
+
+.picture-duel{
+    display: flex;
+  flex-direction: column;
+  width: 300px; 
+  gap: 15px;
+  margin-left: 50px; 
+}
+.ana-bloom{
+    border-radius: 15px;
+    width: 100%;
+}
+
+.picture-flex{
+    display: flex;
+    gap: 15px;
+   
+   justify-content: center;
+}
+.ana-zabo{
+    border-radius: 15px;
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -154,10 +196,15 @@
    .flex-card{
     grid-template-columns: repeat(2, 1fr);
    }
-   .spin{ 
-    flex-direction: column;
-   }
+   .spin,
    .logo-spin-2{
     display: none;
    }
+     .picture-flex{ 
+    flex-direction: column;
+    }
+    .picture-zabo{
+        justify-content: center;
+    }
+   
 }
