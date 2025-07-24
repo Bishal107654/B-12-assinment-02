@@ -1,0 +1,132 @@
+
+.work-sans-regular{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:1140px ;
+  font-style:bold;
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 70px;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.bold-1{
+    font-weight: 600;
+}
+.small{
+    color:#8987A1 ;
+}
+
+.text{
+   font-weight: 600; 
+   font-size: 3rem;
+}
+
+.orenge{
+    color: #E95A08;
+}
+
+.paragraph{
+    color: #8987A1 ;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.show{
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+.flower{
+    width:400px;
+    height: auto;
+}
+.show{
+    text-align: center;
+
+}
+
+
+
+
+.flower-card{
+    margin: 20px 50px;
+}
+.card{
+   text-align: center;
+   justify-content: center;
+}
+
+.our-plants{
+    font-size: 2.5rem;
+}
+
+.sample-flower{
+  width: 100%;
+  height: auto;
+}
+ 
+.sample-flower-image{
+    border:1px solid wheat  ;
+    border-radius: 5px;
+}
+
+.btn{
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color:#E95A08 ;
+    border: 1px solid #E95A08 ;
+    border-radius: 5px;
+}
+
+.lily, .usd{
+    text-align: center;
+}
+.flex-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+
+
+
+
+
+
+/*responsive*/
+
+@media screen and (max-width:576px) {
+   .small,
+   .bold-1{
+    display: none;
+   } 
+
+   .navbar-2{
+    flex-direction: column-reverse;
+    
+   } 
+
+   .flex-card{
+    grid-template-columns: repeat(2, 1fr);
+   }
+}
