@@ -229,21 +229,27 @@
     padding-bottom: 150px;
     padding-top: 150px;
 }
+ 
 
+.logo-img{
 
+}
+.ul{
+    list-style-type: none;
+   
+}
 
+ .icon-logo{
+    padding: 7px;
+ }   
 
+.footer{
+    display: flex;
+    margin: 50px 20px;
+    justify-content: center; 
+    gap: 70px;
 
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -294,5 +300,8 @@
   .bg-img{
     margin: 0 10px;
   }
-  
+  .footer{
+    flex-direction: column;
+  }
+
 }
